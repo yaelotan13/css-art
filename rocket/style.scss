@@ -1,0 +1,607 @@
+//colors
+$background-color: #201F35;
+$sea: #12121F;
+$stars-red: #602A35;
+$stars-grey: #393647;
+$body-color: #d9d2d2;
+$white: #F9F1DA;
+$red: #B0352E;
+
+body {
+    background-color: $background-color;
+}
+
+.star-white-left-1 {
+    width: 10px;
+    height: 10px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 12%;
+    top: 26%;
+}
+
+.star-white-left-2  {
+    width: 6px;
+    height: 6px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 4%;
+}
+
+.star-white-left-3  {
+    width: 6px;
+    height: 6px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    top: 14%;
+}
+
+.star-white-left-4  {
+    width: 10px;
+    height: 10px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 32%;
+    top: 44%;
+}
+
+.star-red-left-1 {
+    width: 9px;
+    height: 9px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.star-red-left-2 {
+    width: 7px;
+    height: 7px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+}
+
+.star-red-left-3 {
+    width: 8px;
+    height: 8px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.star-red-left-4 {
+    width: 6px;
+    height: 6px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.star-red-left-5 {
+    width: 8px;
+    height: 8px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+}
+
+.star-white-right-1  {
+    width: 6px;
+    height: 6px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 79%;
+    top: 38%;
+}
+
+.star-white-right-2 {
+    width: 10px;
+    height: 10px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 69%;
+    top: 28%;
+}
+
+.star-white-right-3 {
+    width: 10px;
+    height: 10px;
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    left: 74%;
+    top: 68%;
+}
+
+.star-red-right-1 {
+    width: 8px;
+    height: 8px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 45%;
+}
+
+.star-red-right-2 {
+    width: 8px;
+    height: 8px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 65%;
+}
+
+.star-red-right-3 {
+    width: 12px;
+    height: 12px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 15%;
+}
+
+.star-red-right-4 {
+    width: 16px;
+    height: 16px;
+    background-color: $stars-red;
+    border-radius: 50%;
+    position: absolute;
+    left: 92%;
+    top: 18%;
+}
+
+.star-grey-right-1 {
+    width: 22px;
+    height: 22px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 92%;
+    top: 28%;
+}
+
+.star-grey-right-2 {
+    width: 10px;
+    height: 10px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 82%;
+    top: 78%;
+}
+
+.star-grey-right-3 {
+    width: 12px;
+    height: 12px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 92%;
+    top: 80%;
+}
+
+.star-grey-left-1 {
+    width: 12px;
+    height: 12px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+}
+
+.star-grey-left-2 {
+    width: 9px;
+    height: 9px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 8%;
+    top: 45%;
+}
+
+.star-grey-left-3 {
+    width: 10px;
+    height: 10px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 14%;
+    top: 65%;
+}
+
+.star-grey-left-4 {
+    width: 13px;
+    height: 13px;
+    background-color: $stars-grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 7%;
+    top: 82%;
+}
+
+.container {
+    position: relative;
+    top: 60px;
+    width: 550px;
+    height: 650px;
+    margin: auto;
+}
+
+.sea {
+    position: absolute;
+    background-color: $sea;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    z-index: 8;
+}
+
+.middle {
+    width: 50%;
+    height: 100%;
+}
+
+.flames {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    left: 0;
+}
+
+.flame-bottom-left {
+    width: 25%;
+    height: 30%;
+    background-color: $red;
+    border-radius: 50%;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.flame-bottom-left-black-bottom {
+    width: 100%;
+    height: 70%;
+    background-color: $sea;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 10%;
+    position: absolute;
+    z-index: 6;
+}
+
+.flame-bottom-middle-left {
+    width: 32%;
+    height: 40%;
+    background-color: $white;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 21%;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.flame-bottom-middle-left-copy {
+    width: 130%;
+    height: 100%;
+    bottom: 10%;
+    top: -5%;
+    position: absolute;
+    background-color: $white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.flame-bottom-left-white-top {
+    width: 120%;
+    height: 120%;
+    background-color: $red;
+    border-radius: 50%;
+    left: 2%;
+    position: absolute;
+    z-index: 4;
+}
+
+.flame-bottom-middle-left-black-bottom {
+    width: 80%;
+    height: 70%;
+    background-color: $sea;
+    border-radius: 50%;
+    top: 60%;
+    left: 5%;
+    position: absolute;
+    z-index: 4;
+}
+.flame-bottom-middle-left-black-bottom-right {
+    width: 40%;
+    height: 40%;
+    background-color: $sea;
+    border-radius: 50%;
+    top: 70%;
+    left: 75%;
+    position: absolute;
+    z-index: 4;
+}
+
+.flame-bottom-middle-right-black-bottom {
+    width: 80%;
+    height: 70%;
+    background-color: $sea;
+    border-radius: 50%;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    z-index: 4;
+}
+
+.flame-bottom-right-righ-black {
+    width: 70%;
+    height: 80%;
+    background-color: $sea;
+    border-radius: 50%;
+    top: 20%;
+    left: 25%;
+    position: absolute;
+    z-index: 4;
+}
+
+.flame-top-left-righ-black {
+    width: 30%;
+    height: 43%;
+    border-radius: 50%;
+    top: 18%;
+    left: 67%;
+    box-shadow: 15px 15px 0 0 $sea;
+    position: absolute;
+    z-index: 4;
+}
+
+.flame-bottom-middle-right {
+    width: 32%;
+    height: 40%;
+    background-color: $white;
+    border-radius: 50%;
+    bottom: 0;
+    left: 48%;
+    position: absolute;
+}
+
+.flame-bottom-middle-right-copy {
+    width: 100%;
+    height: 100%;
+    bottom: 10%;
+    left: 21%;
+    position: absolute;
+    background-color: $white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.flame-bottom-right-white-top {
+    width: 100%;
+    height: 120%;
+    background-color: $red;
+    border-radius: 50%;
+    left: 20%;
+    position: absolute;
+    z-index: 2;
+}
+
+.flame-bottom-right {
+    width: 25%;
+    height: 30%;
+    background-color: $red;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    position: absolute;
+}
+
+.flame-top-left {
+    width: 44%;
+    height: 50%;
+    background-color: $red;
+    border-radius: 50%;
+    bottom: 12%;
+    left: 6%;
+    position: absolute;
+    z-index: 0;
+}
+
+.flame-top-left-righ-white {
+    width: 20%;
+    height: 30%;
+    top: 3%;
+    background-color: $white;
+    border-radius: 50%;
+    left: 55%;
+    position: absolute;
+    z-index: 0;
+}
+
+.flame-top-right {
+    width: 44%;
+    height: 45%;
+    background-color: $red;
+    border-radius: 50%;
+    bottom: 12%;
+    right: 6%;
+    position: absolute;
+    z-index: 0;
+}
+
+.flame-top-right-left-white {
+    width: 30%;
+    height: 40%;
+    top: 5%;
+    background-color: $white;
+    border-radius: 50%;
+    left: 15%;
+    position: absolute;
+    z-index: 0;
+}
+
+.tunnel {
+    clip-path: polygon(58% 7%, 56% 31%, 59% 45%, 67% 66%, 49% 67%, 30% 66%, 36% 50%, 40% 32%, 39% 7%);
+    background-color: $white;
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    // left: 5%;
+    bottom: 14%;
+}
+
+.rocket-body {
+    width: 8%;
+    position: absolute;
+    height: 30%;
+    bottom: 58%;
+    left: 44%;
+    background-color: $white;
+}
+
+.rocket-body-red-side {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    height: 100%;
+    background-color: $red;
+}
+
+.before-rocket-flame {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: $red;
+    position: absolute;
+    width: 160%;
+    height: 7%;
+    bottom: -7%;
+    left: -30%;
+    z-index: 1;
+}
+
+.before-rocket-flame-black-middle {
+    position: absolute;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    height: 100%;
+    background-color: $sea;
+    left: 20%;
+    width: 60%;
+    z-index: 2;
+}
+
+.rocket-body-black-square {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: $sea;
+    top: 20%;
+    z-index: 3;
+}
+
+.rocket-body-black-square-red-left-side {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    height: 84%;
+    background-color: $red;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+.rocket-body-black-square-red-right-side {
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    background-color: $red;
+    right: 0;
+}
+
+.rocket-flame {
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+    width: 35px;
+    height: 35px;
+    border-radius: 0 50% 50% 50%;
+    background-color: $red;
+    transform: rotate(225deg);
+    z-index: 0;
+}
+
+.rocket-head {
+    position: absolute;
+    top: -25%;
+    left: -45%;
+    width: 80px;
+    height: 95px;
+    clip-path: polygon(53% 5%, 72% 14%, 79% 26%, 81% 46%, 24% 46%, 26% 27%, 34% 14%);
+    background-color: $white;
+    z-index: 0;
+}
+
+.half-circle-bottom {
+    width: 20%;
+    height: 20%; 
+    background-color: transparent;
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px; 
+    border: 1px solid black;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 41%;
+}
+
+.rocket-head-red-side {
+    position: absolute;
+    left: 24%;
+    width: 12%;
+    background-color: $red;
+    height: 100%;
+}
+
+.right-wing {
+    position: absolute;
+    right: -33%;
+    clip-path: polygon(20% 0%, 65% 42%, 100% 100%, 20% 100%);
+    background-color: $white;
+    border: 2px solid black;
+    width: 30%;
+    height: 15%;
+}
+
+.left-wing {
+    position: absolute;
+    left: -39%;
+    clip-path: polygon(53% 42%, 99% 1%, 100% 100%, 20% 100%);
+    background-color: $red;
+    border: 2px solid black;
+    width: 33%;
+    height: 18%; 
+    top: -3%;
+}

@@ -1,0 +1,170 @@
+body {
+  background-color: #FBFBFB;
+}
+
+.container {
+  position: relative;
+  width: 80vh;
+  height: 60vh;
+  margin: 20vh auto;
+}
+
+.head {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  right: 25%;
+  height: 60%;
+  background-color: #EFB8B4;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.head-copy {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #EFB8B4;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.hear-left {
+  position: absolute;
+  -webkit-clip-path: polygon(47% 9%, 51% 31%, 59% 57%, 64% 69%, 70% 80%, 38% 80%, 13% 79%, 21% 49%, 32% 26%);
+          clip-path: polygon(47% 9%, 51% 31%, 59% 57%, 64% 69%, 70% 80%, 38% 80%, 13% 79%, 21% 49%, 32% 26%);
+  height: 30%;
+  width: 30%;
+  background-color: #EF8D8F;
+  top: -12%;
+  left: 15%;
+  z-index: 0;
+}
+
+.inner-ear-left {
+  position: absolute;
+  -webkit-clip-path: polygon(47% 9%, 51% 31%, 59% 57%, 64% 69%, 70% 80%, 38% 80%, 13% 79%, 21% 49%, 32% 26%);
+          clip-path: polygon(47% 9%, 51% 31%, 59% 57%, 64% 69%, 70% 80%, 38% 80%, 13% 79%, 21% 49%, 32% 26%);
+  height: 70%;
+  width: 50%;
+  background-color: #EFB8B4;
+  top: 20%;
+  left: 18%;
+  z-index: 3;
+}
+
+.inner-ear-right {
+  position: absolute;
+  -webkit-clip-path: polygon(47% 9%, 65% 21%, 75% 33%, 83% 51%, 90% 80%, 49% 80%, 37% 79%, 45% 60%, 49% 41%);
+          clip-path: polygon(47% 9%, 65% 21%, 75% 33%, 83% 51%, 90% 80%, 49% 80%, 37% 79%, 45% 60%, 49% 41%);
+  height: 70%;
+  width: 50%;
+  background-color: #EFB8B4;
+  top: 20%;
+  left: 33%;
+  z-index: 3;
+}
+
+.hear-right {
+  position: absolute;
+  -webkit-clip-path: polygon(47% 9%, 65% 21%, 75% 33%, 83% 51%, 90% 80%, 49% 80%, 37% 79%, 45% 60%, 49% 41%);
+          clip-path: polygon(47% 9%, 65% 21%, 75% 33%, 83% 51%, 90% 80%, 49% 80%, 37% 79%, 45% 60%, 49% 41%);
+  height: 30%;
+  width: 30%;
+  background-color: #EF8D8F;
+  top: -12%;
+  left: 55%;
+  z-index: 0;
+}
+
+.eye-left {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #771B3B;
+  z-index: 2;
+  left: 38%;
+  top: 30%;
+}
+
+.eyebrow-left {
+  position: absolute;
+  -webkit-clip-path: polygon(26% 36%, 33% 24%, 44% 20%, 51% 23%);
+          clip-path: polygon(26% 36%, 33% 24%, 44% 20%, 51% 23%);
+  background-color: #771B3B;
+  z-index: 2;
+  width: 15%;
+  height: 15%;
+  top: 20%;
+  left: 32%;
+}
+
+.eyebrow-right {
+  position: absolute;
+  -webkit-clip-path: polygon(43% 30%, 59% 30%, 63% 42%, 66% 49%, 41% 22%, 43% 27%, 42% 29%, 57% 30%, 50% 26%, 43% 22%, 46% 25%);
+          clip-path: polygon(43% 30%, 59% 30%, 63% 42%, 66% 49%, 41% 22%, 43% 27%, 42% 29%, 57% 30%, 50% 26%, 43% 22%, 46% 25%);
+  background-color: #771B3B;
+  z-index: 2;
+  width: 15%;
+  height: 15%;
+  top: 20%;
+  left: 52%;
+}
+
+.eye-right {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #771B3B;
+  z-index: 2;
+  left: 54%;
+  top: 30%;
+}
+
+.nose {
+  position: absolute;
+  background-color: #EF8D8F;
+  height: 25%;
+  width: 46%;
+  border-radius: 50px;
+  top: 45%;
+  left: 27%;
+  z-index: 3;
+}
+
+.nostril-left {
+  position: absolute;
+  width: 15%;
+  height: 38%;
+  border-radius: 50%;
+  background-color: #771B3B;
+  z-index: 2;
+  left: 30%;
+  top: 30%;
+}
+
+.nostril-right {
+  position: absolute;
+  width: 15%;
+  height: 38%;
+  border-radius: 50%;
+  background-color: #771B3B;
+  z-index: 2;
+  left: 55%;
+  top: 30%;
+}
+
+.smile {
+  position: absolute;
+  -webkit-clip-path: polygon(54% 82%, 72% 73%, 86% 56%, 78% 76%, 65% 85%, 44% 88%, 28% 83%, 18% 72%, 8% 55%, 35% 79%);
+          clip-path: polygon(54% 82%, 72% 73%, 86% 56%, 78% 76%, 65% 85%, 44% 88%, 28% 83%, 18% 72%, 8% 55%, 35% 79%);
+  background-color: black;
+  width: 20%;
+  height: 10%;
+  top: 70%;
+  z-index: 3;
+  left: 40%;
+}
+/*# sourceMappingURL=style.css.map */
